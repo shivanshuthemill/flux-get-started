@@ -1,0 +1,1 @@
+{"jobID":"dedd2e88-7da6-6e41-d3f8-cb13d6b4b201","spec":{"type":"auto","cause":{"Message":"","User":""},"spec":{"Changes":[{"WorkloadID":"demo:deployment/podinfo","Container":{"Name":"init","Image":"alpine:3.5"},"ImageID":"alpine:3.10"}]}},"result":{"demo:deployment/podinfo":{"Status":"success","PerContainer":[{"Container":"init","Current":"alpine:3.5","Target":"alpine:3.10"}]}}}
