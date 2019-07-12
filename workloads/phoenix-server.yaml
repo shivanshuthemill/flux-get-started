@@ -23,6 +23,7 @@ metadata:
     app: phoenix
   annotations:
     flux.weave.works/automated: true
+    flux.weave.works/tag.init: regexp:^[0-9]*$
 spec:
   replicas: 1
   selector:
