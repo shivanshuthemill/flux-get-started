@@ -21,6 +21,8 @@ metadata:
   name: phoenix
   labels:
     app: phoenix
+  annotations:
+    flux.weave.works/automated: true
 spec:
   replicas: 1
   selector:
