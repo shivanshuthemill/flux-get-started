@@ -38,7 +38,7 @@ spec:
             path: /Users/patelsh/workspace/mill-phoenix-api
       containers:
         - name: phoenix-app
-          image: phpdockerio/php73-fpm
+          image: 511531539329.dkr.ecr.eu-west-1.amazonaws.com/phoenix-api:92
           volumeMounts:
             - name: app-code
               mountPath: /application
